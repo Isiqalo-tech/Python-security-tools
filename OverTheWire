@@ -1,0 +1,18 @@
+# 🚩 OverTheWire: Bandit Write-up (Levels 0-5)
+**Author:** [Your Name]
+**Objective:** Master the Linux Command Line.
+
+### Level 0 -> 1
+- **Goal:** Find the password in a file named `readme`.
+- **Command:** `ls` to find the file, then `cat readme` to read it.
+- **Key Learning:** Using `SSH` to connect to remote servers.
+
+### Level 1 -> 2
+- **Goal:** Read a file named `-`.
+- **Command:** `cat ./-` 
+- **Key Learning:** Linux treats `-` as a special character; using `./` tells the system to look for a filename.
+
+### Level 4 -> 5
+- **Goal:** Find a human-readable file in a directory of binary data.
+- **Command:** `file ./*` 
+- **Key Learning:** The `file` command identifies what kind of data is inside a file.
